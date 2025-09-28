@@ -1,0 +1,49 @@
+{
+    "name": "Status Chceker",
+    "description": "A Telegram status checker Bot, written in Python with Pyrogram.",
+    "logo": "https://envs.sh/Gx8.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram v2 String Session from @StringGennBot on Telegram.",
+        "value": "",
+        "required": true
+      },
+      "CHANNEL_ID": {
+        "description": "Your channel id",
+        "value": "",
+        "required": true
+      },
+      "BOT_LIST": {
+        "description": "Enter bots username and don't add comma after bot username , just add space",
+        "value": "",
+        "required": true
+      },
+      "MESSAGE_ID": {
+        "description": "Your message id",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          }
+      ],
+      "stack": "container"
+  }

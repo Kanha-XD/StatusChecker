@@ -1,0 +1,4 @@
+kurigram
+tgcrypto
+pytz
+python-dotenv
